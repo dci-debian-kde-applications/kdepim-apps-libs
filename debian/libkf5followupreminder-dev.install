@@ -1,0 +1,6 @@
+usr/include/KF5/FollowupReminder/
+usr/include/KF5/followupreminder/
+usr/include/KF5/followupreminder_version.h
+usr/lib/*/libKF5FollowupReminder.so
+usr/lib/*/qt5/mkspecs/modules/qt_FollowupReminder.pri
+usr/lib/*/cmake/KF5FollowupReminder/

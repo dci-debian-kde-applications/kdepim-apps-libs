@@ -1,0 +1,6 @@
+usr/include/KF5/KdepimDBusInterfaces/
+usr/include/KF5/kdepimdbusinterfaces/
+usr/include/KF5/kdepimdbusinterfaces_version.h
+usr/lib/*/cmake/KF5KdepimDBusInterfaces/
+usr/lib/*/libKF5KdepimDBusInterfaces.so
+usr/lib/*/qt5/mkspecs/modules/qt_KdepimDBusInterfaces.pri

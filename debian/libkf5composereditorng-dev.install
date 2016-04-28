@@ -1,0 +1,6 @@
+usr/include/KF5/ComposerEditorNG/
+usr/include/KF5/composereditorng/
+usr/include/KF5/composereditorng_version.h
+usr/lib/*/cmake/KF5ComposerEditorNG/
+usr/lib/*/libKF5ComposerEditorNG.so
+usr/lib/*/qt5/mkspecs/modules/qt_ComposerEditorNG.pri

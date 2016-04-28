@@ -1,0 +1,7 @@
+# SymbolsHelper-Confirmed: 4:15.12 amd64
+libKF5KdepimDBusInterfaces.so.5 libkf5kdepimdbusinterfaces5 #MINVER#
+ _ZN10UriHandler7processERK7QStringRKN7Akonadi4ItemE@Base 4:15.12
+ _ZN4KPIM14ReminderClient10hideDaemonEv@Base 4:15.12
+ _ZN4KPIM14ReminderClient10showDaemonEv@Base 4:15.12
+ _ZN4KPIM14ReminderClient10stopDaemonEv@Base 4:15.12
+ _ZN4KPIM14ReminderClient11startDaemonEv@Base 4:15.12
