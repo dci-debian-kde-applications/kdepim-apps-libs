@@ -1,12 +1,56 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
-Copyright: 2015-2016, Montel Laurent <montel@kde.org>
+Copyright: 2003, Cornelius Schumacher <schumacher@kde.org>
+           2005, David Faure <faure@kde.org>
+           2012-2016, Montel Laurent <montel@kde.org>
+           2010, Tobias Koenig <tokoe@kde.org>
+License: LGPL-2+
+
+Files: kaddressbookgrantlee/src/formatter/grantleecontactutils.cpp
+       kaddressbookgrantlee/src/formatter/grantleecontactutils.h
+       kaddressbookgrantlee/src/printing/autotests/grantleeprinttest.cpp
+       kaddressbookgrantlee/src/printing/autotests/grantleeprinttest.h
+       kaddressbookgrantlee/src/printing/contactgrantleeprintaddressobject.cpp
+       kaddressbookgrantlee/src/printing/contactgrantleeprintaddressobject.h
+       kaddressbookgrantlee/src/printing/contactgrantleeprintcryptoobject.cpp
+       kaddressbookgrantlee/src/printing/contactgrantleeprintcryptoobject.h
+       kaddressbookgrantlee/src/printing/contactgrantleeprintgeoobject.cpp
+       kaddressbookgrantlee/src/printing/contactgrantleeprintgeoobject.h
+       kaddressbookgrantlee/src/printing/contactgrantleeprintimobject.cpp
+       kaddressbookgrantlee/src/printing/contactgrantleeprintimobject.h
+       kaddressbookgrantlee/src/printing/contactgrantleeprintobject.cpp
+       kaddressbookgrantlee/src/printing/contactgrantleeprintobject.h
+       kaddressbookgrantlee/src/printing/contactgrantleeprintphoneobject.cpp
+       kaddressbookgrantlee/src/printing/contactgrantleeprintphoneobject.h
+       kaddressbookgrantlee/src/printing/grantleeprint.cpp
+       kaddressbookgrantlee/src/printing/grantleeprint.h
+       kaddressbookgrantlee/src/widget/grantleecontactviewer.cpp
+       kaddressbookgrantlee/src/widget/grantleecontactviewer.h
+       libfollowupreminder/src/followupreminderinfo.cpp
+       libfollowupreminder/src/followupreminderinfo.h
+       libfollowupreminder/src/followupreminderutil.cpp
+       libfollowupreminder/src/followupreminderutil.h
+       libsendlater/src/sendlaterdialog.cpp
+       libsendlater/src/sendlaterdialog.h
+       libsendlater/src/sendlaterinfo.cpp
+       libsendlater/src/sendlaterinfo.h
+       libsendlater/src/sendlatertimedatewidget.cpp
+       libsendlater/src/sendlatertimedatewidget.h
+       libsendlater/src/sendlaterutil.cpp
+       libsendlater/src/sendlaterutil.h
+Copyright: 2013-2016, Montel Laurent <montel@kde.org>
 License: GPL-2
+
+Files: libkdepimdbusinterfaces/src/urihandler.cpp
+       libkdepimdbusinterfaces/src/urihandler.h
+Copyright: 2003, Cornelius Schumacher <schumacher@kde.org>
+           2005, Rafal Rzepecki <divide@users.sourceforge.net>
+License: GPL-2+
 
 Files: debian/*
 Copyright: 2016, Maximiliano Curia <maxy@debian.org>
-License: GPL-2
+License: LGPL-2+
 
 License: GPL-2
  This package is free software; you can redistribute it and/or modify
@@ -20,3 +64,31 @@ License: GPL-2
  .
  The complete text of the GNU General Public License version 2
  can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+ License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
