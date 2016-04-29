@@ -39,6 +39,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-apps-libs.gi
 Package: kf5-kdepim-apps-libs-data
 Architecture: all
 Depends: ${misc:Depends}
+Breaks: libkf5composereditorng5 (<= 4:16.04)
+Replaces: libkf5composereditorng5 (<= 4:16.04)
 Description: KDE PIM mail related libraries, data files
  This package is part of the KDE PIM module.
 
@@ -89,6 +91,8 @@ Multi-Arch: same
 Depends: kf5-kdepim-apps-libs-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: libkf5libkdepim5 (<= 4:16.04)
+Replaces: libkf5libkdepim5 (<= 4:16.04)
 Description: follow up reminder library
  This package is part of the KDE PIM module.
 
