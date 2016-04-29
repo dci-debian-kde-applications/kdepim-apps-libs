@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12 amd64
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64
 libKF5SendLater.so.5 libkf5sendlater5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.12
  _ZN22SendLaterAgentSettings4selfEv@Base 4:15.12
@@ -26,6 +26,7 @@ libKF5SendLater.so.5 libkf5sendlater5 #MINVER#
  _ZN9SendLater13SendLaterInfoD1Ev@Base 4:15.12
  _ZN9SendLater13SendLaterInfoD2Ev@Base 4:15.12
  _ZN9SendLater13SendLaterUtil13defaultConfigEv@Base 4:15.12
+ _ZN9SendLater13SendLaterUtil16sendLaterPatternEv@Base 4:16.04.0
  _ZN9SendLater13SendLaterUtil18writeSendLaterInfoE28QExplicitlySharedDataPointerI13KSharedConfigEPNS_13SendLaterInfoEb@Base 4:15.12
  _ZN9SendLater13SendLaterUtil19changeRecurrentDateEPNS_13SendLaterInfoE@Base 4:15.12
  _ZN9SendLater13SendLaterUtil20compareSendLaterInfoEPNS_13SendLaterInfoES2_@Base 4:15.12

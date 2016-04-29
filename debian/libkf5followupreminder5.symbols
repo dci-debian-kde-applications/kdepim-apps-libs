@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12 amd64
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64
 libKF5FollowupReminder.so.5 libkf5followupreminder5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.12
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.12
@@ -20,6 +20,7 @@ libKF5FollowupReminder.so.5 libkf5followupreminder5 #MINVER#
  _ZN16FollowUpReminder20FollowUpReminderInfoC2ERKS0_@Base 4:15.12
  _ZN16FollowUpReminder20FollowUpReminderInfoC2Ev@Base 4:15.12
  _ZN16FollowUpReminder20FollowUpReminderUtil13defaultConfigEv@Base 4:15.12
+ _ZN16FollowUpReminder20FollowUpReminderUtil23followUpReminderPatternEv@Base 4:16.04.0
  _ZN16FollowUpReminder20FollowUpReminderUtil25forceReparseConfigurationEv@Base 4:15.12
  _ZN16FollowUpReminder20FollowUpReminderUtil25writeFollowupReminderInfoE28QExplicitlySharedDataPointerI13KSharedConfigEPNS_20FollowUpReminderInfoEb@Base 4:15.12
  _ZN16FollowUpReminder20FollowUpReminderUtil26removeFollowupReminderInfoE28QExplicitlySharedDataPointerI13KSharedConfigERK5QListIiEb@Base 4:15.12
