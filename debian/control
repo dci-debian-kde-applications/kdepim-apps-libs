@@ -100,7 +100,8 @@ Package: libkf5kaddressbookgrantlee-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5akonadicontact-dev (>= 5.2.0~),
+Depends: libgrantlee5-dev (>= 5.0~),
+         libkf5akonadicontact-dev (>= 5.2.0~),
          libkf5kaddressbookgrantlee5 (= ${binary:Version}),
          libkf5pimcommon-dev (>= 5.2.0~),
          ${misc:Depends},
