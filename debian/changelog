@@ -1,3 +1,9 @@
+kf5-kdepim-apps-libs (4:16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:14:30 +0200
+
 kf5-kdepim-apps-libs (4:16.04.0-1~2.gbpd4ffe6) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @d4ffe6c2c99f665a07aad791bfa3370c6e2aebac **
