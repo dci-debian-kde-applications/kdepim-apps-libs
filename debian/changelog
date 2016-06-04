@@ -1,11 +1,9 @@
-kf5-kdepim-apps-libs (4:16.04.1-1~1.gbp987c41) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @987c41e77d057754dfb3f0a6085cb707f4d82496 **
+kf5-kdepim-apps-libs (4:16.04.1-1) experimental; urgency=medium
 
   * Initial release.
   * Update symbols files.
   * Add missing breaks/replaces
   * Add -dev dependencies needed by the cmake file
-  * UNRELEASED
+  * Add upstream patch: upstream_add_copying_files.patch
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:48:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 04 Jun 2016 22:27:14 +0200
