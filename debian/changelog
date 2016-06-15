@@ -1,3 +1,12 @@
+kf5-kdepim-apps-libs (4:16.04.2-1~1.gbp6fc658) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @6fc658caa897a7ac4627070591b926584ba19c98 **
+
+  * Refresh patches
+  * Update symbols files with the buildds results
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 12:48:34 +0200
+
 kf5-kdepim-apps-libs (4:16.04.1-1) experimental; urgency=medium
 
   * Initial release.
