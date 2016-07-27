@@ -1,15 +1,23 @@
-kf5-kdepim-apps-libs (4:16.04.1-0neon) xenial; urgency=medium
+kf5-kdepim-apps-libs (4:16.04.2-2) unstable; urgency=low
 
-  * New release
+  * Release to unstable.
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:14:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 06 Jul 2016 08:54:28 +0200
 
-kf5-kdepim-apps-libs (4:16.04.0-1~2.gbpd4ffe6) UNRELEASED; urgency=medium
+kf5-kdepim-apps-libs (4:16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @d4ffe6c2c99f665a07aad791bfa3370c6e2aebac **
+  [ Automatic packaging ]
+  * Refresh patches
+  * Update symbols files with the buildds results
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 30 Jun 2016 14:15:35 +0200
+
+kf5-kdepim-apps-libs (4:16.04.1-1) experimental; urgency=medium
 
   * Initial release.
   * Update symbols files.
   * Add missing breaks/replaces
+  * Add -dev dependencies needed by the cmake file
+  * Add upstream patch: upstream_add_copying_files.patch
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 29 Apr 2016 12:08:35 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 04 Jun 2016 22:27:14 +0200
