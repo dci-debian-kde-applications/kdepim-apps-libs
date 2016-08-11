@@ -44,26 +44,6 @@ Replaces: libkf5composereditorng5 (<= 4:16.04)
 Description: KDE PIM mail related libraries, data files
  This package is part of the KDE PIM module.
 
-Package: libkf5composereditorng5
-Architecture: any
-Multi-Arch: same
-Depends: kf5-kdepim-apps-libs-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: compose editor library
- This package is part of the KDE PIM module.
-
-Package: libkf5composereditorng-dev
-Section: libdevel
-Architecture: any
-Multi-Arch: same
-Depends: libkf5composereditorng5 (= ${binary:Version}),
-         libkf5webkit-dev (>= 5.19.0~),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: compose editor library, devel files
- This package is part of the KDE PIM module.
-
 Package: libkf5followupreminder5
 Architecture: any
 Multi-Arch: same
