@@ -1,6 +1,6 @@
-kf5-kdepim-apps-libs (4:16.08.0-1~1.gbp23ed7a) UNRELEASED; urgency=medium
+kf5-kdepim-apps-libs (4:16.08.1-1~1.gbpc54941) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @23ed7acce3f13d67294d5abd97efe99a91c23dd4 **
+  ** SNAPSHOT build @c54941d842d2ce0368d87bbeb83ced75f255df89 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @bdc585e89add7103e8fb92b92d4984e44eef1aa5 **
@@ -10,8 +10,9 @@ kf5-kdepim-apps-libs (4:16.08.0-1~1.gbp23ed7a) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:48:16 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:48:37 +0200
 
 kf5-kdepim-apps-libs (4:16.04.2-2) unstable; urgency=low
 
