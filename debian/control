@@ -8,21 +8,21 @@ Build-Depends: cmake (>= 2.8.12~),
                extra-cmake-modules (>= 5.23.0~),
                kio-dev (>= 5.23.0~),
                libgrantlee5-dev (>= 5.1~),
-               libkf5akonadi-dev (>= 4:5.3.0~),
-               libkf5akonadicontact-dev (>= 5.3.0~),
+               libkf5akonadi-dev (>= 4:5.3.1~),
+               libkf5akonadicontact-dev (>= 5.3.1~),
                libkf5akonadimime-dev (>= 5.2.0~),
                libkf5completion-dev (>= 5.19.0~),
                libkf5config-dev (>= 5.23.0~),
                libkf5configwidgets-dev (>= 5.23.0~),
-               libkf5contacts-dev (>= 5.3.0~),
+               libkf5contacts-dev (>= 5.3.1~),
                libkf5coreaddons-dev (>= 5.23.0~),
                libkf5dbusaddons-dev (>= 5.19.0~),
-               libkf5grantleetheme-dev (>= 5.3.0~),
+               libkf5grantleetheme-dev (>= 5.3.1~),
                libkf5i18n-dev (>= 5.23.0~),
                libkf5iconthemes-dev (>= 5.23.0~),
-               libkf5libkleo-dev (>= 5.3.0~),
+               libkf5libkleo-dev (>= 5.3.1~),
                libkf5mime-dev (>= 5.2.0~),
-               libkf5pimcommon-dev (>= 5.3.0~),
+               libkf5pimcommon-dev (>= 5.3.1~),
                libkf5pimtextedit-dev (>= 5.2.0~),
                libkf5service-dev (>= 5.23.0~),
                libkf5sonnet-dev (>= 5.19.0~),
@@ -79,7 +79,7 @@ Package: libkf5followupreminder-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5akonadi-dev (>= 4:5.3.0~),
+Depends: libkf5akonadi-dev (>= 4:5.3.1~),
          libkf5config-dev (>= 5.23.0~),
          libkf5followupreminder5 (= ${binary:Version}),
          ${misc:Depends},
@@ -103,9 +103,9 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libgrantlee5-dev (>= 5.1~),
-         libkf5akonadicontact-dev (>= 5.3.0~),
+         libkf5akonadicontact-dev (>= 5.3.1~),
          libkf5kaddressbookgrantlee5 (= ${binary:Version}),
-         libkf5pimcommon-dev (>= 5.3.0~),
+         libkf5pimcommon-dev (>= 5.3.1~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: follow up reminder library, devel files
@@ -127,7 +127,7 @@ Package: libkf5kdepimdbusinterfaces-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5akonadi-dev (>= 4:5.3.0~),
+Depends: libkf5akonadi-dev (>= 4:5.3.1~),
          libkf5kdepimdbusinterfaces5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -150,7 +150,7 @@ Package: libkf5sendlater-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5akonadi-dev (>= 4:5.3.0~),
+Depends: libkf5akonadi-dev (>= 4:5.3.1~),
          libkf5config-dev (>= 5.23.0~),
          libkf5sendlater5 (= ${binary:Version}),
          ${misc:Depends},
