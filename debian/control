@@ -135,3 +135,24 @@ Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          ${shlibs:Depends}
 Description: send later library, devel files
  This package is part of the KDE PIM module.
+
+Package: libkf5kaddressbookimportexport5
+Architecture: any
+Multi-Arch: same
+Depends: kf5-kdepim-apps-libs-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Addressbook import export library
+ This package is part of the KDE PIM module.
+
+Package: libkf5kaddressbookimportexport-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5akonadi-dev (>= 4:5.2.0~),
+         libkf5config-dev (>= 5.19.0~),
+         libkf5kaddressbookimportexport5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Addressbook import export library, devel files
+ This package is part of the KDE PIM module.

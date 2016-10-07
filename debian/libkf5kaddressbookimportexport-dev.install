@@ -1,0 +1,5 @@
+usr/include/KF5/kaddressbookimportexport/
+usr/include/KF5/kaddressbookimportexport_version.h
+usr/lib/*/cmake/KF5KaddressbookImportExport/
+usr/lib/*/libKF5KaddressbookImportExport.so
+usr/lib/*/qt5/mkspecs/modules/qt_KaddressbookImportExport.pri
