@@ -40,6 +40,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-apps-libs.gi
 
 Package: kf5-kdepim-apps-libs-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Breaks: libkf5composereditorng5 (<= 4:16.04)
 Replaces: libkf5composereditorng5 (<= 4:16.04)
