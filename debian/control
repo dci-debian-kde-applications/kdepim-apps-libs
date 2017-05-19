@@ -20,7 +20,6 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5i18n-dev (>= 5.19.0~),
                libkf5iconthemes-dev (>= 5.19.0~),
                libkf5libkleo-dev (>= 5.2.0~),
-               libkf5mailcommon-dev,
                libkf5mime-dev (>= 5.2.0~),
                libkf5pimcommon-dev (>= 5.2.0~),
                libkf5pimtextedit-dev (>= 5.2.0~),
@@ -134,6 +133,7 @@ Architecture: any
 Multi-Arch: same
 Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          libkf5config-dev (>= 5.19.0~),
+         libkf5mailcommon-dev,
          libkf5sendlater5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
