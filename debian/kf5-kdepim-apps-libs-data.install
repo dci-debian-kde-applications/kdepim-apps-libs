@@ -1,2 +1,3 @@
 etc/xdg/kdepim-apps-lib.categories
-usr/share/composereditor/composereditorinitialhtml
+etc/xdg/kdepim-apps-lib.renamecategories
+usr/share/locale/

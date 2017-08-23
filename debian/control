@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.23.0~),
-               kio-dev (>= 5.23.0~),
+               libkf5kio-dev (>= 5.23.0~),
                libgrantlee5-dev (>= 5.1~),
                libkf5akonadi-dev (>= 4:5.3.1~),
                libkf5akonadicontact-dev (>= 5.3.1~),
@@ -16,6 +16,8 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5configwidgets-dev (>= 5.23.0~),
                libkf5contacts-dev (>= 5.3.1~),
                libkf5coreaddons-dev (>= 5.23.0~),
+               libgpgme-dev | libgpgme11-dev,
+               libkf5contacteditor-dev (>= 17.04.0~),
                libkf5dbusaddons-dev (>= 5.19.0~),
                libkf5grantleetheme-dev (>= 5.3.1~),
                libkf5i18n-dev (>= 5.23.0~),
@@ -25,6 +27,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5pimcommon-dev (>= 5.3.1~),
                libkf5pimtextedit-dev (>= 5.2.0~),
                libkf5service-dev (>= 5.23.0~),
+               libkf5prison-dev,
                libkf5sonnet-dev (>= 5.19.0~),
                libkf5webkit-dev (>= 5.19.0~),
                libkf5widgetsaddons-dev (>= 5.23.0~),
@@ -40,30 +43,11 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-apps-libs.gi
 
 Package: kf5-kdepim-apps-libs-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
-Breaks: libkf5composereditorng5 (<= 4:16.04)
-Replaces: libkf5composereditorng5 (<= 4:16.04)
+Breaks: libkf5composereditorng5 (<= 4:16.04), ${kde-l10n:all}
+Replaces: libkf5composereditorng5 (<= 4:16.04), ${kde-l10n:all}
 Description: KDE PIM mail related libraries, data files
- This package is part of the KDE PIM module.
-
-Package: libkf5composereditorng5
-Architecture: any
-Multi-Arch: same
-Depends: kf5-kdepim-apps-libs-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: compose editor library
- This package is part of the KDE PIM module.
-
-Package: libkf5composereditorng-dev
-Section: libdevel
-Architecture: any
-Multi-Arch: same
-Depends: libkf5composereditorng5 (= ${binary:Version}),
-         libkf5webkit-dev (>= 5.19.0~),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: compose editor library, devel files
  This package is part of the KDE PIM module.
 
 Package: libkf5followupreminder5
@@ -152,8 +136,30 @@ Architecture: any
 Multi-Arch: same
 Depends: libkf5akonadi-dev (>= 4:5.3.1~),
          libkf5config-dev (>= 5.23.0~),
+         libkf5mailcommon-dev,
          libkf5sendlater5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: send later library, devel files
+ This package is part of the KDE PIM module.
+
+Package: libkf5kaddressbookimportexport5
+Architecture: any
+Multi-Arch: same
+Depends: kf5-kdepim-apps-libs-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Addressbook import export library
+ This package is part of the KDE PIM module.
+
+Package: libkf5kaddressbookimportexport-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5akonadi-dev (>= 4:5.2.0~),
+         libkf5config-dev (>= 5.19.0~),
+         libkf5kaddressbookimportexport5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Addressbook import export library, devel files
  This package is part of the KDE PIM module.
