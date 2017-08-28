@@ -45,8 +45,14 @@ Package: kf5-kdepim-apps-libs-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Breaks: libkf5composereditorng5 (<= 4:16.04), ${kde-l10n:all}, kde-l10n-ast (<< 4:17.03.90-0~), kde-l10n-eo (<< 4:17.03.90-0~),
-Replaces: libkf5composereditorng5 (<= 4:16.04), ${kde-l10n:all}, kde-l10n-ast (<< 4:17.03.90-0~), kde-l10n-eo (<< 4:17.03.90-0~),
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        libkf5composereditorng5 (<= 4:16.04),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          libkf5composereditorng5 (<= 4:16.04),
+          ${kde-l10n:all},
 Description: KDE PIM mail related libraries, data files
  This package is part of the KDE PIM module.
 
@@ -70,6 +76,7 @@ Depends: kf5-kdepim-apps-libs-data (= ${source:Version}),
          ${shlibs:Depends},
 Description: follow up reminder library
  This package is part of the KDE PIM module.
+Breaks: kmail (<< 4:17.08), libkf5messagecomposer5 (<< 4:17.08)
 
 Package: libkf5kaddressbookgrantlee-dev
 Section: libdevel
@@ -90,7 +97,11 @@ Multi-Arch: same
 Depends: kf5-kdepim-apps-libs-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: libkf5libkdepim5 (<= 4:16.04)
+Breaks: kaddressbook (<< 4:17.08),
+        kdepim-addons (<< 17.08),
+        kdepim-themeeditors (<< 4:17.08),
+        libkf5libkdepim5 (<= 4:16.04),
+        libkf5messageviewer5 (<< 4:17.08),
 Replaces: libkf5libkdepim5 (<= 4:16.04)
 Description: follow up reminder library
  This package is part of the KDE PIM module.
@@ -141,6 +152,10 @@ Description: KDE PIM D-Bus interfaces library
  some of the KDE PIM applications.
  .
  This package is part of the KDE PIM module.
+Breaks: kontact (<< 4:17.08),
+        korganizer (<< 4:17.08),
+        libkf5calendarsupport5 (<< 4:17.08),
+        libkf5incidenceeditor5 (<< 17.08),
 
 Package: libkf5sendlater-dev
 Section: libdevel
@@ -162,3 +177,4 @@ Depends: kf5-kdepim-apps-libs-data (= ${source:Version}),
          ${shlibs:Depends},
 Description: send later library
  This package is part of the KDE PIM module.
+Breaks: kmail (<< 4:17.08), libkf5messagecomposer5 (<< 4:17.08)
