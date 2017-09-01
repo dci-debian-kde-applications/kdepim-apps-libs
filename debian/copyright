@@ -2,68 +2,36 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
 Copyright: 2003, Cornelius Schumacher <schumacher@kde.org>
-           2005, David Faure <faure@kde.org>
-           2012-2016, Montel Laurent <montel@kde.org>
-           2010, Tobias Koenig <tokoe@kde.org>
-License: LGPL-2+
-
-Files: kaddressbookgrantlee/src/formatter/grantleecontactutils.cpp
-       kaddressbookgrantlee/src/formatter/grantleecontactutils.h
-       kaddressbookgrantlee/src/printing/autotests/grantleeprinttest.cpp
-       kaddressbookgrantlee/src/printing/autotests/grantleeprinttest.h
-       kaddressbookgrantlee/src/printing/contactgrantleeprintaddressobject.cpp
-       kaddressbookgrantlee/src/printing/contactgrantleeprintaddressobject.h
-       kaddressbookgrantlee/src/printing/contactgrantleeprintcryptoobject.cpp
-       kaddressbookgrantlee/src/printing/contactgrantleeprintcryptoobject.h
-       kaddressbookgrantlee/src/printing/contactgrantleeprintgeoobject.cpp
-       kaddressbookgrantlee/src/printing/contactgrantleeprintgeoobject.h
-       kaddressbookgrantlee/src/printing/contactgrantleeprintimobject.cpp
-       kaddressbookgrantlee/src/printing/contactgrantleeprintimobject.h
-       kaddressbookgrantlee/src/printing/contactgrantleeprintobject.cpp
-       kaddressbookgrantlee/src/printing/contactgrantleeprintobject.h
-       kaddressbookgrantlee/src/printing/contactgrantleeprintphoneobject.cpp
-       kaddressbookgrantlee/src/printing/contactgrantleeprintphoneobject.h
-       kaddressbookgrantlee/src/printing/grantleeprint.cpp
-       kaddressbookgrantlee/src/printing/grantleeprint.h
-       kaddressbookgrantlee/src/widget/grantleecontactviewer.cpp
-       kaddressbookgrantlee/src/widget/grantleecontactviewer.h
-       libfollowupreminder/src/followupreminderinfo.cpp
-       libfollowupreminder/src/followupreminderinfo.h
-       libfollowupreminder/src/followupreminderutil.cpp
-       libfollowupreminder/src/followupreminderutil.h
-       libsendlater/src/sendlaterdialog.cpp
-       libsendlater/src/sendlaterdialog.h
-       libsendlater/src/sendlaterinfo.cpp
-       libsendlater/src/sendlaterinfo.h
-       libsendlater/src/sendlatertimedatewidget.cpp
-       libsendlater/src/sendlatertimedatewidget.h
-       libsendlater/src/sendlaterutil.cpp
-       libsendlater/src/sendlaterutil.h
-Copyright: 2013-2016, Montel Laurent <montel@kde.org>
-License: GPL-2
-
-Files: libkdepimdbusinterfaces/src/urihandler.cpp
-       libkdepimdbusinterfaces/src/urihandler.h
-Copyright: 2003, Cornelius Schumacher <schumacher@kde.org>
+           1989-1991, Free Software Foundation, Inc
+           2013-2017, Montel Laurent <montel@kde.org>
            2005, Rafal Rzepecki <divide@users.sourceforge.net>
+           2009, Tobias Koenig <tokoe@kde.org>
+           2013-2015, Laurent Montel
+           2013, Rosetta Contributors and Canonical Ltd 2013
+           2013-2015, This_file_is_part_of_KDE
 License: GPL-2+
 
-Files: debian/*
-Copyright: 2016, Maximiliano Curia <maxy@debian.org>
+Files: kaddressbookgrantlee/src/formatter/grantleecontactformatter.cpp
+       kaddressbookgrantlee/src/formatter/grantleecontactformatter.h
+       kaddressbookgrantlee/src/formatter/grantleecontactgroupformatter.cpp
+       kaddressbookgrantlee/src/formatter/grantleecontactgroupformatter.h
+       kaddressbookimportexport/src/kaddressbookcontactselectiondialog.cpp
+       kaddressbookimportexport/src/kaddressbookcontactselectiondialog.h
+       kaddressbookimportexport/src/kaddressbookcontactselectionwidget.cpp
+       kaddressbookimportexport/src/kaddressbookcontactselectionwidget.h
+       libkdepimdbusinterfaces/src/reminderclient.cpp
+       libkdepimdbusinterfaces/src/reminderclient.h
+Copyright: 2003, Cornelius Schumacher <schumacher@kde.org>
+           2005, David Faure <faure@kde.org>
+           2015-2017, Laurent Montel <montel@kde.org>
+           2009-2010, Tobias Koenig <tokoe@kde.org>
 License: LGPL-2+
 
-License: GPL-2
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; version 2 of the license.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- The complete text of the GNU General Public License version 2
- can be found in `/usr/share/common-licenses/GPL-2'.
+Files: po/ca/*
+       po/ca@valencia/*
+       po/uk/*
+Copyright: 2013-2015, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
 
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
@@ -92,3 +60,16 @@ License: LGPL-2+
  .
  The complete text of the GNU Library General Public License version 2
  can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files: debian/*
+Copyright: 2016, Maximiliano Curia <maxy@debian.org>
+License: LGPL-2+
