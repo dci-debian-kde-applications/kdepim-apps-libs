@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.1 arm64
+# SymbolsHelper-Confirmed: 4:17.08.3 amd64
 libKF5SendLater.so.5 libkf5sendlater5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.12
  _ZN22SendLaterAgentSettings4selfEv@Base 4:15.12
@@ -49,7 +49,7 @@ libKF5SendLater.so.5 libkf5sendlater5 #MINVER#
  _ZN9SendLater15SendLaterDialogD1Ev@Base 4:15.12
  _ZN9SendLater15SendLaterDialogD2Ev@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryI9QDateTimeEET_PKcRKS2_@Base 4:15.12
- (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.12
+#MISSING: 4:17.08.3# (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.12
  _ZNK9SendLater13SendLaterInfo12isRecurrenceEv@Base 4:15.12
  _ZNK9SendLater13SendLaterInfo14recurrenceUnitEv@Base 4:15.12
