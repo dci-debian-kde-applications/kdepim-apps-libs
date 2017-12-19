@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.0 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 alpha armhf i386 m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x
 libKF5FollowupReminder.so.5 libkf5followupreminder5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.12
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.12
@@ -33,6 +33,7 @@ libKF5FollowupReminder.so.5 libkf5followupreminder5 #MINVER#
  _ZN29FollowUpReminderAgentSettingsD0Ev@Base 4:15.12
  _ZN29FollowUpReminderAgentSettingsD1Ev@Base 4:15.12
  _ZN29FollowUpReminderAgentSettingsD2Ev@Base 4:15.12
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:17.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.12
  _ZNK16FollowUpReminder20FollowUpReminderInfo16uniqueIdentifierEv@Base 4:15.12
  _ZNK16FollowUpReminder20FollowUpReminderInfo17answerWasReceivedEv@Base 4:15.12
